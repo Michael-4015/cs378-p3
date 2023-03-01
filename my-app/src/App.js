@@ -9,6 +9,7 @@ function MainPage() {
   const [loading, setLoading] = useState(true);
   const [stats, setStats] = useState([]);
   const [currYear, setCurrYear] = useState("2021");
+  const [displayYear, setDisplayYear] = useState("2021");
 
   function callApi(year) {
     setCurrYear(year);
@@ -27,6 +28,7 @@ function MainPage() {
           years.push(currYear);
         }
         setStats(response.data["leaders"]["categories"][0]["leaders"]);
+        setDisplayYear(currYear);
         setLoading(false);
       })
       .catch(function (error) {
@@ -62,7 +64,7 @@ function MainPage() {
           </button>
         </div>
         <div>
-          <h2> {currYear}</h2>
+          <h2> {displayYear}</h2>
           {loading
             ? console.log("loading")
             : stats.map((athlete, index) => {
