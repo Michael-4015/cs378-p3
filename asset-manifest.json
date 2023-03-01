@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//michael-4015.github.io/cs378-p3/static/css/main.4f98f2d5.css",
+    "main.js": "//michael-4015.github.io/cs378-p3/static/js/main.83b38a59.js",
+    "static/js/787.28cb0dcd.chunk.js": "//michael-4015.github.io/cs378-p3/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "//michael-4015.github.io/cs378-p3/index.html",
+    "main.4f98f2d5.css.map": "//michael-4015.github.io/cs378-p3/static/css/main.4f98f2d5.css.map",
+    "main.83b38a59.js.map": "//michael-4015.github.io/cs378-p3/static/js/main.83b38a59.js.map",
+    "787.28cb0dcd.chunk.js.map": "//michael-4015.github.io/cs378-p3/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f98f2d5.css",
+    "static/js/main.83b38a59.js"
+  ]
+}
